@@ -81,18 +81,5 @@ El flujo de solicitudes es el siguiente:
 Abrir una terminal por cada microservicio y ejecutar:
 
 ```bash
-# Users Service
-cd UsersService
-./mvnw spring-boot:run
+docker-compose up --build
 
-# Products Service
-cd ProductsService
-./mvnw spring-boot:run
-
-# Orders Service
-cd OrdersService
-./mvnw spring-boot:run
-
-# API Gateway
-cd api-gateway
-./mvnw spring-boot:run
