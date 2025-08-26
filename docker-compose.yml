@@ -1,6 +1,6 @@
 services:
-  users-service:             # ✅ nombre del contenedor en minúsculas
-    build: ./UsersService    # 🟢 ruta física puede tener mayúsculas
+  users-service:             
+    build: ./UsersService   
     container_name: users-service
     ports:
       - "8081:8081"
