@@ -6,3 +6,8 @@ Este proyecto es un **ejemplo básico de microservicios** utilizando **Spring Bo
 
 ## 📂 Estructura del proyecto
 
+Microservices/
+├─ UsersService/ # Microservicio para gestión de usuarios
+├─ ProductsService/ # Microservicio para gestión de productos
+├─ OrdersService/ # Microservicio para gestión de pedidos
+└─ api-gateway/ # API Gateway que centraliza las peticiones
