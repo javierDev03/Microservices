@@ -78,7 +78,7 @@ El flujo de solicitudes es el siguiente:
 
 ## Cómo ejecutar
 
-Abrir una terminal por cada microservicio y ejecutar:
+Abrir una terminal y ejecutar:
 
 ```bash
 docker-compose up --build
